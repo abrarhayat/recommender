@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+    <appender name="FILE0" class="ch.qos.logback.core.FileAppender">
+        <file>/tmp/efficientRecommender.log</file>
+        <encoder>
+            <pattern>%d [%t] [%c:%L] %-5p - %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="FILE0"/>
+    </root>
+</configuration>

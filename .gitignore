@@ -1,0 +1,13 @@
+.*
+!.gitignore
+.gradle
+.idea
+.idea/workspace.xml
+*.ipr
+*.iws
+*.iml
+atlassian-ide-plugin.xml
+target
+build
+out
+test-out
